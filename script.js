@@ -5,7 +5,7 @@ const yearEle = document.querySelector(`#year`);
 const btn = document.querySelector(`#button`);
 const h3 = document.querySelector(`h3`);
 
-form.addEventListener(`submit`, function (e) {
+form.addEventListener(`click`, function (e) {
   e.preventDefault();
 
   const name = nameEle.value;
